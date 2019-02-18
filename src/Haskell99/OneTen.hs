@@ -71,12 +71,14 @@ compress = (map head) . group
 --   | x == y = compress (y : ys)
 --   | otherwise = x : compress (y : ys)
 
+
 -- Problem 9:
 -- Pack consecutive duplicates of list elements into sublists.
 -- If a list contains repeated elements they should be placed in separate sublists.
 pack :: [Char] -> [[Char]]
 pack "" = []
 pack (x:xs) = (x : takeWhile (== x) xs) : pack (dropWhile (== x) xs)
+
 
 -- Problem 10:
 -- Run-length encoding of a list.
