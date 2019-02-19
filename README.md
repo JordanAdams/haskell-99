@@ -1,7 +1,11 @@
-# Haskell99
-Solutions to ~99~ 88 Haskell problems.
+<p align="center"><img src="/.github/logo.png" height="80" /></p>
+<h2 align="center">Haskell 99</h2>
 
-https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
+<p align="center" fontSize="5">
+    Solutions to 99 Haskell problems.
+    <br />
+    https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
+</p>
 
 
 ## Problems
